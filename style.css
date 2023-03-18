@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+     height: 150px;
+     background-color: #372549;
+     text-align: center;
+     line-height: 150px;
+}
+
+.header .text{
+    color: #fff;
+    font-size: 45px;
+}
+
+.second-header{
+    height: 180px;
+    background : linear-gradient(to right , #b75d69 , #774c60);
+    padding: 50px;
+    line-height: 30px;
+}
+
+.second-header .text{
+    font-size: 22px;
+    width: 600px;
+    margin: auto;
+    color: #fff;
+}
+
+.footer-div{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footer-div .firstP{
+    font-size: 22px;
+}
+
+.footer-div .secondP{
+     font-size: 22px;
+     background-color: rgb(231, 231, 231);
+     padding: 25px 30px;
+     margin-top: 10px;
+}
+
+.footer-div textarea{
+    margin: 20px 0 35px;
+    font-size: 20px;
+    border: 10px solid #5f506b ;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.footer-div .timer-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.footer-div .timer-section .button{
+    padding: 5px;
+    width: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border: #6a6b83 7px solid;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.footer-div .timer-section .button:hover{
+    background-color: black;
+    color: #fff;
+}
